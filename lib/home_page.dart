@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:tunes/tune_item.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -32,32 +33,18 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Column(
-          children: colors
-              .asMap()
-              .entries
-              .map((e) => Item(
-                  color: e.value,
-                  onTap: () async =>
-                      await player.play(AssetSource('note${e.key + 1}.wav'))))
-              .toList()),
-    );
-  }
-}
-
-class Item extends StatelessWidget {
-  const Item({super.key, required this.color, required this.onTap});
-
-  final Color color;
-  final void Function() onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Expanded(
-      child: GestureDetector(
-        onTap: onTap,
-        child: Container(
-          color: color,
-        ),
+        children: colors
+            .asMap()
+            .entries
+            .map(
+              (e) => TuneItem(
+                color: e.value,
+                onTap: () async => await player.play(
+                  AssetSource('note${e.key + 1}.wav'),
+                ),
+              ),
+            )
+            .toList(),
       ),
     );
   }
