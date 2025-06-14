@@ -1,7 +1,6 @@
 # 🎵 Flutter Tunes App
 
-A sleek and minimal Flutter music player that delivers a calming audio experience. 
-Perfect for exploring Flutter’s audio and UI capabilities in a clean, user-friendly design.
+A sleek and minimal Flutter music player that delivers a calming audio experience. Perfect for exploring Flutter’s audio and UI capabilities in a clean, user-friendly design.
 
 ---
 
@@ -21,16 +20,13 @@ Perfect for exploring Flutter’s audio and UI capabilities in a clean, user-fri
 
 ## 🛠️ Languages & Tools
 <p align="left"> 
-        <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="50" height="45"/>
-        <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="50" height="45"/>
-        <img src="https://github.com/user-attachments/assets/81601bc6-d10f-436a-a3fa-fb3b129feaf6" alt="VS Code" width="50" height="45"/>
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="45"/>
+          <img src="https://skillicons.dev/icons?i=flutter,dart,vscode,git,github" alt="Tech stack icons" />
 </p
 
 ---
 
 ## 📦 Packages Used
-   * audioplayers
+- 🔊 `audioplayers`
 
 ---
 
