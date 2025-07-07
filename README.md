@@ -1,6 +1,6 @@
 # 🎵 Flutter Tunes App
 
-A sleek and minimal Flutter music player that delivers a calming audio experience.  
+A sleek and minimal **Flutter** music player that delivers a calming audio experience.  
 Perfect for exploring Flutter’s audio and UI capabilities in a clean, user-friendly design.
 
 ---
